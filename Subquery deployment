@@ -1,0 +1,10 @@
+Subquery deployment
+* setup archive node in docker-compose
+* package ternoa-subquery-node as docker image with Dockerfile
+* add dedicated docker-compose file for deployment
+* change docker-compose deployment setup to work with docker internal virtual networking
+* add traefik proxy and automatic letsencrypt certificate
+* add docker push github workflow
+* add docker image auto update on publish to docker hub
+* move secrets to environment variables
+ main (#1)
